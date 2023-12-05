@@ -263,529 +263,154 @@
     list-style: none;
 }
 
-/* ? @Media planshet */  
 
 
-@media (max-width:700px;) {   
-
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        background-color: #3F3B6C;
-        color: #FFFFFF;
-        padding: 20px 90px;
+@media (max-width: 1220px) {
+    .hero-img {
+        width: 400px;
     }
 
-    /* Header */
-
-    .header{
-        display: flex;
-        justify-content: space-between;
+    .neck img {
+        width: 400px;
     }
 
-    .header img{
-        display: flex;
-        width: 30px;
-    }
-
-    .header1{
-        display: flex;
-        gap: 15px;
-    }
-
-    .header2{
-        display: flex;
-        list-style: none;
-        gap: 15px;
-    }
-
-    /* Head */
-
-    .head{
-        display: flex;
-        white-space: wrap;
-        gap: 20px;
-    }
-
-    .head2{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .head2 h1{
-        font-size: 50px;
-    }
-
-    /* Neck */
-
-    .neck{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .neck img{
+    .chest2 img {
         width: 500px;
     }
-    
-    .neck1{
-        position: relative;
-        box-shadow: 1px 1px 10px gray;
-        opacity: .6;
-    }
-    
-    .neck1::after {
-        position: absolute;
-        content: "Twitter onreact.js, redux and firebase";
-        left: 5px;
-        font-size: 40px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        bottom: 20px;
-        color: rgb(194, 194, 204); 
-    }
-    
-    .neck2{
-        position: relative;
-    }
-    
-    .neck2::after{
-        position: absolute;
-        content: "E-commerce project on django, react and reactQuery";
-        left: 5px;
-        font-size: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        bottom: 20px;
-        color: rgb(194, 194, 204);
-    }
 
-    /* Chest */
-    
-    .chest{
-        display: flex;
-        justify-content: space-between;
-        background-color: #ffffffc7;
-        border-radius: 10px;
-        padding: 40px;
-        color: #000;
-        align-items: center;
-    }
-    
-    .chest1{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .chest1 h1{
+    .head2 h1{
         font-size: 40px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    .chest2 img{
-        box-shadow: -15px 15px 30px rgb(104, 29, 216);
-       border-radius: 10px;
-    }
-    
-    /* Stomach */
-    
-    .stomach{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .stomach1 h1{
-        font-size: 40px;
-    }
-    
-    .stomach2{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .stomach3{
-        position: relative;
-        opacity: .4;
-        border: 3px solid rgb(132, 211, 233);
-        border-radius: 10px;
-    }
-    
-    .stomach3::before{
-        position: absolute;
-        content: "Jerry";
-        left: 40px;
-        top: 80px;
-        font-size: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: rgba(163, 199, 214, 1);
-    }
-    
-    .stomach3::after{
-        position: absolute;
-        content: "Junior Dev";
-        left: 20px;
-        bottom: -30px;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    .stomach4{
-        position: relative;
-        opacity: .4;
-    }
-    
-    .stomach4::after{
-        position: absolute;
-        content: "Mona Liza";
-        left: 20px;
-        bottom: -30px;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    .stomach5{
-        position: relative;
-        opacity: .4;
-    }
-    
-    .stomach5::after{
-        position: absolute;
-        content: "Manager";
-        left: 20px;
-        bottom: -30px;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    .stomach6{
-        position: relative;
-        opacity: .4;
-    }
-    
-    .stomach6::after{
-        position: absolute;
-        content: "Junior Dev";
-        left: 20px;
-        bottom: -30px;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    /* Hand */
-    
-    .hand{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding: 10px;
-        background-color: rgba(98, 79, 130, 1);
-        border-radius: 10px;
-        border: 3px solid rgb(128, 103, 169);
-    }
-    
-    .hand h1{
-        font-size: 40px;
-    }
-    
-    .hand input{
-        color: #fff;
-        border: none;
-        outline: none;
-        border-radius: 10px;
-        background-color: rgb(127, 104, 166);
-        padding: 10px 20px;
-    }
-    
-    .hand textarea{
-        color: #fff;
-        border: none;
-        outline: none;
-        border-radius: 10px;
-        background-color: rgb(127, 104, 166);
-        padding: 10px 20px;
-    }
-    
-    /* Foot */
-    
-    .foot{
-        display: flex;
-        justify-content: space-between;
-        background-color: #000;
-        padding: 10px 35px;
-    }
-    
-    .foot1{
-        display: flex;
-        gap: 15px;
-        list-style: none;
     }
 }
 
-/* ? Media tel */
+@media (max-width: 1000px) {
 
-@media (max-width: 330px;) {
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        background-color: #3F3B6C;
-        color: #FFFFFF;
-        padding: 10px 70px;
+    /* Head */
+
+    .hero-img {
+        width: 300px;
     }
+
+    /* Neck */
+
+    .neck img {
+        width: 300px;
+    }
+
+    .neck1::after {
+        font-size: 30px;
+    }
+
+    .neck2::after{
+        font-size: 30px;
+    }
+
+    /* Chest */
+
+    .chest1 h1{
+        font-size: 25px;
+    }
+
+    .chest2 img {
+        width: 300px;
+    }
+
+    /* Stomach */
+
+    .stomach1 h1{
+        font-size: 25px;
+    }
+
+    /* Hand */
+
+    .hand h1{
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width: 800px) {
 
     /* Header */
 
     .header{
-        display: flex;
         flex-direction: column;
-    }
-
-    .header img{
-        display: flex;
-        width: 20px;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        display: none;
     }
 
     .header1{
-        display: flex;
+        flex-direction: column;
         gap: 10px;
     }
 
     .header2{
-        display: flex;
-        list-style: none;
+        flex-direction: column;
         gap: 10px;
     }
 
+
     /* Head */
 
-    .head{
-        display: flex;
+    .head {
         flex-direction: column;
-        white-space: wrap;
-        gap: 15px;
     }
 
-    .head2{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .head2 h1{
-        font-size: 30px;
+    .hero-img {
+        width: 100%;
     }
 
     /* Neck */
 
     .neck{
-        display: flex;
         flex-direction: column;
     }
-    
+
     .neck img{
-        width: 300px;
-    }
-    
-    .neck1{
-        position: relative;
-        box-shadow: 1px 1px 10px gray;
-        opacity: .6;
-    }
-    
-    .neck1::after {
-        position: absolute;
-        content: "Twitter onreact.js, redux and firebase";
-        left: 5px;
-        font-size: 30px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-        bottom: 10px;
-        color: rgb(194, 194, 204); 
-    }
-    
-    .neck2{
-        position: relative;
-    }
-    
-    .neck2::after{
-        position: absolute;
-        content: "E-commerce project on django, react and reactQuery";
-        left: 5px;
-        font-size: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        bottom: 10px;
-        color: rgb(194, 194, 204);
+        width: 100%;
     }
 
-
-    
     /* Chest */
-    
+
     .chest{
-        display: flex;
         flex-direction: column;
-        background-color: #ffffffc7;
-        border-radius: 10px;
-        padding: 20px;
-        color: #000;
+    }
+
+    .chest2 img{
+        width: 100%;
+    }
+
+    /* Stomach */
+
+    .stomach{
+        flex-direction: column;
+    }
+
+    .stomach2{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .stomach2 img{
+        width: 100%;
+    }
+
+    /* Foot */
+
+    .foot{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
         align-items: center;
     }
-    
-    .chest1{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    
-    .chest1 h1{
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    .chest2 img{
-        box-shadow: -15px 15px 30px rgb(104, 29, 216);
-       border-radius: 10px;
-    }
-    
-    /* Stomach */
-    
-    .stomach{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .stomach1 h1{
-        font-size: 20px;
-    }
-    
-    .stomach2{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .stomach3{
-        position: relative;
-        opacity: .4;
-        border: 3px solid rgb(132, 211, 233);
-        border-radius: 10px;
-    }
-    
-    .stomach3::before{
-        position: absolute;
-        content: "Jerry";
-        left: 20px;
-        top: 40px;
-        font-size: 15px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: rgba(163, 199, 214, 1);
-    }
-    
-    .stomach3::after{
-        position: absolute;
-        content: "Junior Dev";
-        left: 10px;
-        bottom: -15px;
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    .stomach4{
-        position: relative;
-        opacity: .4;
-    }
-    
-    .stomach4::after{
-        position: absolute;
-        content: "Mona Liza";
-        left: 10px;
-        bottom: -15px;
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    .stomach5{
-        position: relative;
-        opacity: .4;
-    }
-    
-    .stomach5::after{
-        position: absolute;
-        content: "Manager";
-        left: 10px;
-        bottom: -15px;
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    .stomach6{
-        position: relative;
-        opacity: .4;
-    }
-    
-    .stomach6::after{
-        position: absolute;
-        content: "Junior Dev";
-        left: 10px;
-        bottom: -15px;
-        font-size: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-    }
-    
-    /* Hand */
-    
-    .hand{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 5px;
-        background-color: rgba(98, 79, 130, 1);
-        border-radius: 10px;
-        border: 3px solid rgb(128, 103, 169);
-    }
-    
-    .hand h1{
-        font-size: 20px;
-    }
-    
-    .hand input{
-        color: #fff;
-        border: none;
-        outline: none;
-        border-radius: 10px;
-        background-color: rgb(127, 104, 166);
-        padding: 5px 10px;
-    }
-    
-    .hand textarea{
-        color: #fff;
-        border: none;
-        outline: none;
-        border-radius: 10px;
-        background-color: rgb(127, 104, 166);
-        padding: 5px 10px;
-    }
-    
-    /* Foot */
-    
-    .foot{
-        display: flex;
-        flex-direction: column;
-        background-color: #000;
-        padding: 5px 20px;
-    }
-    
+
     .foot1{
-        display: flex;
-        gap: 5px;
-        list-style: none;
+        flex-direction: column;
     }
-}
+} 
+
+
+
+
